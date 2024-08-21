@@ -1,18 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-import ActParent from './Act1Parent';
-import ActChild1 from './ActChild1';
-import ActChild2 from './ActChild2';
-import ActChild3 from './ActChild3';
 
 function App() {
   return (
-    <div>
-      <ActParent/>
-      <ActChild1/>  
-      <ActChild2/>  
-      <ActChild3/>  
-    </div>  
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
